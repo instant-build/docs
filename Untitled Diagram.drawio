@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net" modified="2023-11-25T21:48:11.547Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:114.0) Gecko/20100101 Firefox/114.0" etag="c16SeK3XG8QOQgEV9iw5" version="22.1.4" type="github">
+  <diagram name="Page-1" id="eTjZQSOtNptKrAlcZZS5">
+    <mxGraphModel dx="1707" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FMSR8E7ofrIew3itHQPi-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="FMSR8E7ofrIew3itHQPi-1" target="FMSR8E7ofrIew3itHQPi-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="600" />
+              <mxPoint x="260" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMSR8E7ofrIew3itHQPi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="FMSR8E7ofrIew3itHQPi-1" target="FMSR8E7ofrIew3itHQPi-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="600" />
+              <mxPoint x="660" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMSR8E7ofrIew3itHQPi-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e51400;strokeColor=#B20000;strokeWidth=2;" edge="1" parent="1" source="FMSR8E7ofrIew3itHQPi-1" target="FMSR8E7ofrIew3itHQPi-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="620" />
+              <mxPoint x="460" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMSR8E7ofrIew3itHQPi-1" value="NGINX Reverse Proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="500" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FMSR8E7ofrIew3itHQPi-2" value="&lt;div&gt;Jenkins Server&lt;/div&gt;&lt;div&gt;Port 8080&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="720" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FMSR8E7ofrIew3itHQPi-4" value="&lt;div&gt;Angular Server&lt;/div&gt;&lt;div&gt;Port 80&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="720" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FMSR8E7ofrIew3itHQPi-5" value="&lt;div&gt;Kotlin Server&lt;/div&gt;&lt;div&gt;Port 42&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="720" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FMSR8E7ofrIew3itHQPi-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.451;exitY=1.036;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.452;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#008a00;strokeColor=#005700;strokeWidth=2;" edge="1" parent="1" source="FMSR8E7ofrIew3itHQPi-6" target="FMSR8E7ofrIew3itHQPi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FMSR8E7ofrIew3itHQPi-6" value="Firewall" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FMSR8E7ofrIew3itHQPi-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;strokeWidth=2;" edge="1" parent="1" source="FMSR8E7ofrIew3itHQPi-14" target="FMSR8E7ofrIew3itHQPi-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="220" />
+              <mxPoint x="425" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMSR8E7ofrIew3itHQPi-14" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="30" width="340" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FMSR8E7ofrIew3itHQPi-16" value="443" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="300" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FMSR8E7ofrIew3itHQPi-19" value="Other Ports" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="250" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FMSR8E7ofrIew3itHQPi-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0.429;entryY=0.938;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" target="FMSR8E7ofrIew3itHQPi-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="300" as="sourcePoint" />
+            <mxPoint x="330" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMSR8E7ofrIew3itHQPi-25" value="&lt;div&gt;jenkins.instant.build&lt;/div&gt;&lt;div&gt;api.instant.build&lt;/div&gt;&lt;div&gt;instant.build&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FMSR8E7ofrIew3itHQPi-29" value="jenkins.instant.build" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="610" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FMSR8E7ofrIew3itHQPi-30" value="api.instant.build" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="425" y="650" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FMSR8E7ofrIew3itHQPi-31" value="instant.build" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="610" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FMSR8E7ofrIew3itHQPi-32" value="HTTP" style="whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="810" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FMSR8E7ofrIew3itHQPi-33" value="HTTPS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="130" y="810" width="60" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
